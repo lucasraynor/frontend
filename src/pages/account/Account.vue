@@ -45,6 +45,7 @@ export default {
           profilePicUrl: this.profilePicUrl,
         });
         console.log("finished update");
+        this.handleProfilePictureChange();
       } catch (error) {
         console.error(error);
       }
